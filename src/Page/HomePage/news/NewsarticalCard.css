@@ -1,0 +1,7 @@
+.card-title {
+    /* Adjust the height as needed */
+    height: 3rem; /* Example height */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

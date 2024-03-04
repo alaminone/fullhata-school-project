@@ -9,7 +9,8 @@ const Banner = () => {
 
   return (
     <div>
-      <header className="flex overflow-hidden relative flex-col justify-center items-start px-16 py-12 text-sm font-bold leading-5 text-white min-h-[528px] max-md:px-5">
+      <header  className="flex overflow-hidden relative flex-col justify-center
+       items-start px-16 py-12 text-sm font-bold leading-5 text-white min-h-[650px] max-md:px-5">
         <div className="object-cover absolute inset-0 size-full  bg-black"></div>
         <img
           loading="lazy"

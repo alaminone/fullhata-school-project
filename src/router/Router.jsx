@@ -3,6 +3,9 @@ import PageLayout from "./PageLayout";
 import Home from "../Page/HomePage/Home/Home";
 import ErrorPage from "../Components/errorpage/ErrorPage";
 
+import NewsPage from "../Page/newspage/NewsPage";
+import Contact from "../Page/contactpage/Contact";
+
 export const router = createBrowserRouter([
     {
       path: "/",
@@ -22,11 +25,15 @@ export const router = createBrowserRouter([
         //  {
         //   path:'/register',
         //   element:<Register></Register>
-        //  },
-        //  {
-        //   path:"addproduct",
-        //   element:<Privetroute><Addproduct></Addproduct></Privetroute>
         //  }
+         {
+          path:"/news",
+          element:<NewsPage></NewsPage>
+         },
+         {
+          path:"/contact",
+          element:<Contact></Contact>
+         }
       ]
     },
   ]);
